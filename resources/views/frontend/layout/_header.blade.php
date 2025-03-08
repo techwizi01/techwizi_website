@@ -41,7 +41,7 @@
                         <div class="icon-box fas fa-envelope-open-text"></div>
                         <ul>
                             <li><strong>Mail Address</strong> <a
-                                    href="mailto:mailto:info@website.com">support@techwizi.com</a></li>
+                                    href="mailto:support@techwizi.com">support@techwizi.com</a></li>
                         </ul>
                     </div>
 

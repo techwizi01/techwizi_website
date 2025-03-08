@@ -14,16 +14,16 @@
                         <div class="color-layer"></div>
                         <div class="circle-layer"></div>
                         <div class="vector-layer-one"
-                            style="background-image: url({{asset('assets/frontend')}}/images/main-slider/vector-1.png)">
+                            style="background-image: url({{asset('assets/frontend/images/main-slider/vector-1.png')}})">
                         </div>
                         <div class="vector-layer-two"
-                            style="background-image: url({{asset('assets/frontend')}}/images/main-slider/vector-2.png)">
+                            style="background-image: url({{asset('assets/frontend/images/main-slider/vector-2.png')}})">
                         </div>
                         <div class="vector-layer-three"
-                            style="background-image: url({{asset('assets/frontend')}}/images/main-slider/vector-3.png)">
+                            style="background-image: url({{asset('assets/frontend/images/main-slider/vector-3.png')}})">
                         </div>
                         <div class="vector-layer-four"
-                            style="background-image: url({{asset('assets/frontend')}}/images/main-slider/vector-4.png)">
+                            style="background-image: url({{asset('assets/frontend/images/main-slider/vector-4.png')}})">
                         </div>
 
                         <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" data-paddingbottom="[0,0,0,0]"
@@ -40,9 +40,9 @@
                                 <div class="icon-two fas fa-bullhorn"></div>
                                 <div class="icon-three fas fa-gem"></div>
                                 <div class="icon-four fas fa-bullseye"></div>
-                                <img src="{{asset('assets/frontend')}}/images/main-slider/content-image-1.png" alt="">
+                                <img src="{{asset('assets/frontend/images/hero.png')}}" alt="">
                                 <div class="vector-layer-five"
-                                    style="background-image: url({{asset('assets/frontend')}}/images/main-slider/vector-5.png)">
+                                    style="background-image: url({{asset('assets/frontend/images/main-slider/vector-5.png')}})">
                                 </div>
                             </figure>
                         </div>
@@ -66,7 +66,7 @@
                             data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']"
                             data-frames='[{"delay":900,"speed":1500,"frame":"0","from":"y:bottom;rX:-20deg;rY:-20deg;rZ:0deg;","to":"o:1;","ease":"power3.out"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"power3.inOut"}]'
                             style="">
-                            <h1>Digital marketing agency.</h1>
+                            <h2>Transforming Ideas into Scalable Digital Solutions</h2>
                         </div>
 
                         <div class="tp-caption tp-resizeme" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
@@ -78,91 +78,14 @@
                             data-frames='[{"delay":1200,"speed":1500,"frame":"0","from":"y:bottom;rX:-20deg;rY:-20deg;rZ:0deg;","to":"o:1;","ease":"power3.out"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"power3.inOut"}]'
                             style="">
                             <div class="button-box">
-                                <a href="about.html" class="theme-btn btn-style-three"><span class="txt">Discover
-                                        More <i class="flaticon-next-2"></i></span></a>
-                                <a href="about.html" class="theme-btn btn-style-four"><span class="txt">Learn More
-                                        <i class="flaticon-next-2"></i></span></a>
-                            </div>
-                        </div>
-
-                    </li>
-
-                    <li data-transition="fadefromleft" data-description="Slide Description" data-index="rs-1689"
-                        data-slotamount="default" data-thumb="" data-title="Slide Title">
-                        <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10"
-                            data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="">
-
-                        <div class="color-layer"></div>
-                        <div class="circle-layer"></div>
-                        <div class="vector-layer-one"
-                            style="background-image: url({{asset('assets/frontend')}}/images/main-slider/vector-1.png)">
-                        </div>
-                        <div class="vector-layer-two"
-                            style="background-image: url({{asset('assets/frontend')}}/images/main-slider/vector-2.png)">
-                        </div>
-                        <div class="vector-layer-three"
-                            style="background-image: url({{asset('assets/frontend')}}/images/main-slider/vector-3.png)">
-                        </div>
-                        <div class="vector-layer-four"
-                            style="background-image: url({{asset('assets/frontend')}}/images/main-slider/vector-4.png)">
-                        </div>
-
-                        <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]"
-                            data-responsive_offset="on" data-type="shape" data-height="auto" data-whitespace="nowrap"
-                            data-width="none" data-hoffset="['-80','15','15','15']" data-voffset="['-80','-80','0','0']"
-                            data-x="['right','right','right','right']" data-y="['bottom','center','bottom','bottom']"
-                            data-frames='[{"delay":0,"speed":1500,"frame":"0","from":"x:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"power3.inOut"}]'
-                            style="">
-                            <figure class="content-image">
-                                <div class="border-layer"></div>
-                                <div class="dark-color-layer"></div>
-                                <div class="icon-one fas fa-signal"></div>
-                                <div class="icon-two fas fa-bullhorn"></div>
-                                <div class="icon-three fas fa-gem"></div>
-                                <div class="icon-four fas fa-bullseye"></div>
-                                <img src="{{asset('assets/frontend')}}/images/main-slider/content-image-1.png" alt="">
-                                <div class="vector-layer-five"
-                                    style="background-image: url({{asset('assets/frontend')}}/images/main-slider/vector-5.png)">
-                                </div>
-                            </figure>
-                        </div>
-
-                        <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on"
-                            data-type="text" data-height="none" data-width="['1100','800','800','500']"
-                            data-whitespace="normal" data-hoffset="['15','15','15','15']"
-                            data-voffset="['-50','-180','-140','-125']" data-x="['left','left','left','left']"
-                            data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']"
-                            data-frames='[{"delay":600,"speed":1500,"frame":"0","from":"y:bottom;rX:-20deg;rY:-20deg;rZ:0deg;","to":"o:1;","ease":"power3.out"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"power3.inOut"}]'
-                            style="">
-                            <div class="title">Your Trusted Agency</div>
-                        </div>
-
-                        <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on"
-                            data-type="text" data-height="none" data-width="['800','800','800','500']"
-                            data-whitespace="normal" data-hoffset="['15','15','15','15']"
-                            data-voffset="['90','-70','-40','-35']" data-x="['left','left','left','left']"
-                            data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']"
-                            data-frames='[{"delay":900,"speed":1500,"frame":"0","from":"y:bottom;rX:-20deg;rY:-20deg;rZ:0deg;","to":"o:1;","ease":"power3.out"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"power3.inOut"}]'
-                            style="">
-                            <h1>Digital marketing agency.</h1>
-                        </div>
-
-                        <div class="tp-caption tp-resizeme" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on"
-                            data-type="text" data-height="none" data-width="['700','700','700','500']"
-                            data-whitespace="normal" data-hoffset="['15','15','15','15']"
-                            data-voffset="['250','60','80','80']" data-x="['left','left','left','left']"
-                            data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']"
-                            data-frames='[{"delay":1200,"speed":1500,"frame":"0","from":"y:bottom;rX:-20deg;rY:-20deg;rZ:0deg;","to":"o:1;","ease":"power3.out"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"power3.inOut"}]'
-                            style="">
-                            <div class="button-box">
-                                <a href="about.html" class="theme-btn btn-style-three"><span class="txt">Discover
-                                        More <i class="flaticon-next-2"></i></span></a>
-                                <a href="about.html" class="theme-btn btn-style-four"><span class="txt">Learn More
-                                        <i class="flaticon-next-2"></i></span></a>
+                                <a href="#" class="theme-btn btn-style-three">
+                                    <span class="txt">Get a Free Consultation<i class="flaticon-next-2"></i></span>
+                                </a>
+                                <a href="{{route('about')}}" class="theme-btn btn-style-four">
+                                    <span class="txt">Learn More
+                                        <i class="flaticon-next-2"></i>
+                                    </span>
+                                </a>
                             </div>
                         </div>
 
