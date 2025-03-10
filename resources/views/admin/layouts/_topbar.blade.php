@@ -258,10 +258,10 @@
                     <div class="dropdown-divider"></div>
 
                     <!-- item-->
-                    <a href="pages-login.html" class="dropdown-item notify-item">
+                    <button class="dropdown-item notify-item" onclick="document.getElementById('logoutForm').submit()">
                         <i data-lucide="log-out" class="font-size-16 me-2"></i>
                         <span>Logout</span>
-                    </a>
+                    </button>
 
                 </div>
             </li>
@@ -269,3 +269,5 @@
         </ul>
     </div>
 </div>
+
+<form action="{{ route('admin.logout') }}" id="logoutForm" method="POST">@csrf</form>

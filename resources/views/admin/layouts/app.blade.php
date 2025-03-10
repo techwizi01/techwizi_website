@@ -59,14 +59,12 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div>
-                                <script>
-                                    document.write(new Date().getFullYear())
-                                </script> © Lunoz
+                               {{ now()->format('Y') }} © Lunoz
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="d-none d-md-flex gap-4 align-item-center justify-content-md-end">
-                                <p class="mb-0">Design & Develop by <a href="https://github.com/dkpankaj1"
+                                <p class="mb-0">Design & Develop by <a href="https://github.com/techwizi01"
                                         target="_blank">techwizi</a> </p>
                             </div>
                         </div>
