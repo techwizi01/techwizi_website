@@ -16,7 +16,7 @@ class PageController extends Controller
     }
     public function service()
     {
-        return view('frontend.service-detail');
+        return view('frontend.service');
     }
     public function portfolio()
     {

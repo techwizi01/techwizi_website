@@ -2,7 +2,7 @@ name: Server deployment process
 
 on:
   push:
-    branches: [master]
+    branches: [stage]
 
 jobs:
   setup-ssh:

@@ -106,49 +106,30 @@
                     <ul class="sponsors-carousel owl-carousel owl-theme">
                         <li>
                             <div class="image-box"><a href="#"><img
-                                        src="{{asset('assets/frontend')}}/images/clients/1.png" alt=""></a>
+                                        src="{{asset('assets/frontend/images/client/5.png')}}" alt=""></a>
                             </div>
                         </li>
                         <li>
                             <div class="image-box"><a href="#"><img
-                                        src="{{asset('assets/frontend')}}/images/clients/2.png" alt=""></a>
+                                        src="{{asset('assets/frontend/images/client/1.png')}}" alt=""></a>
                             </div>
                         </li>
                         <li>
                             <div class="image-box"><a href="#"><img
-                                        src="{{asset('assets/frontend')}}/images/clients/3.png" alt=""></a>
+                                        src="{{asset('assets/frontend/images/client/2.png')}}" alt=""></a>
                             </div>
                         </li>
                         <li>
                             <div class="image-box"><a href="#"><img
-                                        src="{{asset('assets/frontend')}}/images/clients/4.png" alt=""></a>
+                                        src="{{asset('assets/frontend/images/client/3.png')}}" alt=""></a>
                             </div>
                         </li>
                         <li>
                             <div class="image-box"><a href="#"><img
-                                        src="{{asset('assets/frontend')}}/images/clients/5.png" alt=""></a>
+                                        src="{{asset('assets/frontend/images/client/4.png')}}" alt=""></a>
                             </div>
                         </li>
-                        <li>
-                            <div class="image-box"><a href="#"><img
-                                        src="{{asset('assets/frontend')}}/images/clients/1.png" alt=""></a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="image-box"><a href="#"><img
-                                        src="{{asset('assets/frontend')}}/images/clients/2.png" alt=""></a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="image-box"><a href="#"><img
-                                        src="{{asset('assets/frontend')}}/images/clients/3.png" alt=""></a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="image-box"><a href="#"><img
-                                        src="{{asset('assets/frontend')}}/images/clients/4.png" alt=""></a>
-                            </div>
-                        </li>
+            
                     </ul>
                 </div>
             </div>
