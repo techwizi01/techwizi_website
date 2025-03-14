@@ -4,7 +4,7 @@ on:
   push:
     branches: [stage]
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Install SSH key

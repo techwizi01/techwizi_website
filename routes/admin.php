@@ -8,8 +8,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
 
-
-
     Route::group(['middleware' => 'admin.access:guest'], function () {
 
         Route::get('/', fn() => redirect()->route('admin.login'));
@@ -17,7 +15,6 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
         Route::get('login', [AuthController::class, 'create'])->name('login');
         Route::post('login', [AuthController::class, 'store']);
     });
-
 
     Route::group(['middleware' => 'admin.access:auth'], function () {
 
@@ -33,7 +30,5 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
 
         Route::post('logout', [AuthController::class, 'destroy'])->name('logout');
     });
-
-
 
 });
