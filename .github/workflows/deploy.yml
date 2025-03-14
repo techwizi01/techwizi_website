@@ -25,7 +25,8 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd domains/techwizi.com/public_html
-            git clone https://github.com/techwizi01/techwizi_website.git
+            git restore .
+            git pull origin stage
             php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
             php composer-setup.php
             php composer.phar update --no-dev --optimize-autoloader
