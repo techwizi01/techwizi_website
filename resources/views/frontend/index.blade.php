@@ -14,16 +14,16 @@
                         <div class="color-layer"></div>
                         <div class="circle-layer"></div>
                         <div class="vector-layer-one"
-                            style="background-image: url({{asset('assets/frontend/images/main-slider/vector-1.png')}})">
+                            style="background-image: url({{ asset('assets/frontend/images/main-slider/vector-1.png') }})">
                         </div>
                         <div class="vector-layer-two"
-                            style="background-image: url({{asset('assets/frontend/images/main-slider/vector-2.png')}})">
+                            style="background-image: url({{ asset('assets/frontend/images/main-slider/vector-2.png') }})">
                         </div>
                         <div class="vector-layer-three"
-                            style="background-image: url({{asset('assets/frontend/images/main-slider/vector-3.png')}})">
+                            style="background-image: url({{ asset('assets/frontend/images/main-slider/vector-3.png') }})">
                         </div>
                         <div class="vector-layer-four"
-                            style="background-image: url({{asset('assets/frontend/images/main-slider/vector-4.png')}})">
+                            style="background-image: url({{ asset('assets/frontend/images/main-slider/vector-4.png') }})">
                         </div>
 
                         <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" data-paddingbottom="[0,0,0,0]"
@@ -40,9 +40,9 @@
                                 <div class="icon-two fas fa-bullhorn"></div>
                                 <div class="icon-three fas fa-gem"></div>
                                 <div class="icon-four fas fa-bullseye"></div>
-                                <img src="{{asset('assets/frontend/images/hero.png')}}" alt="">
+                                <img src="{{ asset('assets/frontend/images/hero.png') }}" alt="">
                                 <div class="vector-layer-five"
-                                    style="background-image: url({{asset('assets/frontend/images/main-slider/vector-5.png')}})">
+                                    style="background-image: url({{ asset('assets/frontend/images/main-slider/vector-5.png') }})">
                                 </div>
                             </figure>
                         </div>
@@ -81,7 +81,7 @@
                                 <a href="#" class="theme-btn btn-style-three">
                                     <span class="txt">Get a Free Consultation<i class="flaticon-next-2"></i></span>
                                 </a>
-                                <a href="{{route('about')}}" class="theme-btn btn-style-four">
+                                <a href="{{ route('about') }}" class="theme-btn btn-style-four">
                                     <span class="txt">Learn More
                                         <i class="flaticon-next-2"></i>
                                     </span>
@@ -106,30 +106,30 @@
                     <ul class="sponsors-carousel owl-carousel owl-theme">
                         <li>
                             <div class="image-box"><a href="#"><img
-                                        src="{{asset('assets/frontend/images/client/5.png')}}" alt=""></a>
+                                        src="{{ asset('assets/frontend/images/client/5.png') }}" alt=""></a>
                             </div>
                         </li>
                         <li>
                             <div class="image-box"><a href="#"><img
-                                        src="{{asset('assets/frontend/images/client/1.png')}}" alt=""></a>
+                                        src="{{ asset('assets/frontend/images/client/1.png') }}" alt=""></a>
                             </div>
                         </li>
                         <li>
                             <div class="image-box"><a href="#"><img
-                                        src="{{asset('assets/frontend/images/client/2.png')}}" alt=""></a>
+                                        src="{{ asset('assets/frontend/images/client/2.png') }}" alt=""></a>
                             </div>
                         </li>
                         <li>
                             <div class="image-box"><a href="#"><img
-                                        src="{{asset('assets/frontend/images/client/3.png')}}" alt=""></a>
+                                        src="{{ asset('assets/frontend/images/client/3.png') }}" alt=""></a>
                             </div>
                         </li>
                         <li>
                             <div class="image-box"><a href="#"><img
-                                        src="{{asset('assets/frontend/images/client/4.png')}}" alt=""></a>
+                                        src="{{ asset('assets/frontend/images/client/4.png') }}" alt=""></a>
                             </div>
                         </li>
-            
+
                     </ul>
                 </div>
             </div>
@@ -140,30 +140,30 @@
     <!-- About Section -->
     <section class="about-section">
         <div class="pattern-layer"
-            style="background-image: url({{asset('assets/frontend')}}/images/background/pattern-1.png)"></div>
+            style="background-image: url({{ asset('assets/frontend') }}/images/background/pattern-1.png)"></div>
         <div class="auto-container">
             <div class="row clearfix">
 
                 <!-- Images Column -->
                 <div class="images-column col-lg-6 col-md-12 col-sm-12">
                     <div class="vector-layer-one"
-                        style="background-image: url({{asset('assets/frontend')}}/images/icons/vector-1.png)">
+                        style="background-image: url({{ asset('assets/frontend') }}/images/icons/vector-1.png)">
                     </div>
                     <div class="vector-layer-two"
-                        style="background-image: url({{asset('assets/frontend')}}/images/icons/vector-2.png)">
+                        style="background-image: url({{ asset('assets/frontend') }}/images/icons/vector-2.png)">
                     </div>
                     <div class="inner-column clearfix">
                         <div class="image wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <img src="{{asset('assets/frontend')}}/images/resource/about-1.jpg" alt="" />
+                            <img src="{{ asset('assets/frontend') }}/images/resource/about-1.jpg" alt="" />
                         </div>
                         <div class="image-two wow fadeInRight" data-wow-delay="150ms" data-wow-duration="1500ms">
-                            <img src="{{asset('assets/frontend')}}/images/resource/about-2.jpg" alt="" />
+                            <img src="{{ asset('assets/frontend') }}/images/resource/about-2.jpg" alt="" />
                         </div>
                         <div class="image-three wow fadeInRight" data-wow-delay="450ms" data-wow-duration="1500ms">
-                            <img src="{{asset('assets/frontend')}}/images/resource/about-4.jpg" alt="" />
+                            <img src="{{ asset('assets/frontend') }}/images/resource/about-4.jpg" alt="" />
                         </div>
                         <div class="image-four wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
-                            <img src="{{asset('assets/frontend')}}/images/resource/about-3.jpg" alt="" />
+                            <img src="{{ asset('assets/frontend') }}/images/resource/about-3.jpg" alt="" />
                         </div>
                     </div>
                 </div>
@@ -175,13 +175,17 @@
                         <div class="sec-title">
                             <div class="title">About Our Agency</div>
                             <h2>Your Trusted <span>partners</span> For Business</h2>
-                            <div class="text">No matter how much you know about a particular medical healthcare
-                                professional, you always need to be thinking about what’s?</div>
+                            <div class="text">
+                                At TechWizi, we specialize in transforming innovative ideas into scalable digital
+                                solutions. As your trusted technology partner, we are committed to delivering
+                                cutting-edge web development, digital strategies, and business solutions that drive
+                                growth and success.
+                            </div>
                         </div>
                         <ul class="about-list">
-                            <li>Lorem Ipsum generators on the tend to repeat.</li>
-                            <li>If you are going to use a passage.</li>
-                            <li>Lorem Ipsum generators on the tend to repeat.</li>
+                            <li>Expertise in creating tailored digital solutions</li>
+                            <li>A results-driven approach to business growth</li>
+                            <li>Commitment to quality, innovation, and client satisfaction</li>
                         </ul>
                         <!-- Quote Box -->
                         <div class="quote-box">
@@ -189,11 +193,12 @@
                                 <span class="quote fas fa-quote-right"></span>
                                 <div class="content">
                                     <div class="author-image">
-                                        <img src="{{asset('assets/frontend')}}/images/resource/author-1.jpg" alt="" />
+                                        <img src="{{ asset('assets/frontend') }}/images/resource/author-1.jpg"
+                                            alt="" />
                                     </div>
-                                    <div class="text">“Precious ipsum dolor sit amet consectetur <br> adipisicing
-                                        elit, sed dos mod tempor”</div>
-                                    <div class="designation">Ceo- <span>Micheal John</span></div>
+                                    <div class="text">“Strategy is not just about making decisions; it’s about making
+                                        the right decisions at the right time.”</div>
+                                    <div class="designation">Founder - <span>Dipankar Kumar Pankaj</span></div>
                                 </div>
                             </div>
                         </div>
@@ -208,9 +213,9 @@
     <!-- Services Section -->
     <section class="services-section">
         <div class="pattern-layer-one"
-            style="background-image: url({{asset('assets/frontend')}}/images/background/pattern-2.png)"></div>
+            style="background-image: url({{ asset('assets/frontend') }}/images/background/pattern-2.png)"></div>
         <div class="pattern-layer-six"
-            style="background-image: url({{asset('assets/frontend')}}/images/background/pattern-3.png)"></div>
+            style="background-image: url({{ asset('assets/frontend') }}/images/background/pattern-3.png)"></div>
         <div class="auto-container">
             <div class="inner-container">
                 <div class="row clearfix">
@@ -221,9 +226,20 @@
                             <!-- Sec Title -->
                             <div class="sec-title">
                                 <div class="title">Offering Services</div>
-                                <h2>We Provide Exclusive <span>Digital</span> Service</h2>
+                                <h2> Innovative <span>Digital Solutions</span> Tailored for Your Business</h2>
                             </div>
                             <div class="row clearfix">
+                                <!-- Service Block -->
+                                <div class="service-block col-lg-6 col-md-6 col-sm-12">
+                                    <div class="inner-box">
+                                        <div class="icon-box">
+                                            <span class="icon flaticon-music-note"></span>
+                                        </div>
+                                        <h3><a href="#">UI/UX Design</a></h3>
+                                        <div class="text">Creating intuitive and visually stunning user experiences.
+                                        </div>
+                                    </div>
+                                </div>
 
                                 <!-- Service Block -->
                                 <div class="service-block col-lg-6 col-md-6 col-sm-12">
@@ -231,9 +247,9 @@
                                         <div class="icon-box">
                                             <span class="icon flaticon-music-note"></span>
                                         </div>
-                                        <h3><a href="service-detail.html">Media Marketing.</a></h3>
-                                        <div class="text">Lorem ipsum, or lipsum as it is sometimes known, is dummy
-                                            text used in laying outing print</div>
+                                        <h3><a href="#">Web Application Development</a></h3>
+                                        <div class="text">Building secure, scalable, and high-performance web
+                                            solutions.</div>
                                     </div>
                                 </div>
 
@@ -243,23 +259,12 @@
                                         <div class="icon-box">
                                             <span class="icon flaticon-email-3"></span>
                                         </div>
-                                        <h3><a href="service-detail.html">Email Marketing</a></h3>
-                                        <div class="text">Lorem ipsum, or lipsum as it is sometimes known, is dummy
-                                            text used in laying outing print</div>
+                                        <h3><a href="#">Mobile Application Development</a></h3>
+                                        <div class="text">Crafting seamless and feature-rich mobile experiences.
+                                        </div>
                                     </div>
                                 </div>
 
-                                <!-- Service Block -->
-                                <div class="service-block col-lg-6 col-md-6 col-sm-12">
-                                    <div class="inner-box">
-                                        <div class="icon-box">
-                                            <span class="icon flaticon-social-reach"></span>
-                                        </div>
-                                        <h3><a href="service-detail.html">Social Media Strategy</a></h3>
-                                        <div class="text">Lorem ipsum, or lipsum as it is sometimes known, is dummy
-                                            text used in laying outing print</div>
-                                    </div>
-                                </div>
 
                                 <!-- Service Block -->
                                 <div class="service-block col-lg-6 col-md-6 col-sm-12">
@@ -267,7 +272,7 @@
                                         <div class="icon-box">
                                             <span class="icon flaticon-analytics"></span>
                                         </div>
-                                        <h3><a href="service-detail.html">Reporting & Analyisis.</a></h3>
+                                        <h3><a href="#">IT Consulting</a></h3>
                                         <div class="text">Lorem ipsum, or lipsum as it is sometimes known, is dummy
                                             text used in laying outing print</div>
                                     </div>
@@ -283,29 +288,31 @@
                             <div class="color-box-one"></div>
                             <div class="color-box-two"></div>
                             <div class="pattern-layer-two"
-                                style="background-image: url({{asset('assets/frontend')}}/images/icons/vector-3.png)">
+                                style="background-image: url({{ asset('assets/frontend') }}/images/icons/vector-3.png)">
                             </div>
                             <div class="pattern-layer-three"
-                                style="background-image: url({{asset('assets/frontend')}}/images/icons/vector-4.png)">
+                                style="background-image: url({{ asset('assets/frontend') }}/images/icons/vector-4.png)">
                             </div>
                             <div class="pattern-layer-four"
-                                style="background-image: url({{asset('assets/frontend')}}/images/icons/vector-5.png)">
+                                style="background-image: url({{ asset('assets/frontend') }}/images/icons/vector-5.png)">
                             </div>
                             <div class="pattern-layer-five"
-                                style="background-image: url({{asset('assets/frontend')}}/images/icons/vector-6.png)">
+                                style="background-image: url({{ asset('assets/frontend') }}/images/icons/vector-6.png)">
                             </div>
                             <!-- Video Box -->
                             <div class="video-box">
                                 <figure class="video-image">
                                     <img class="transition-500ms"
-                                        src="{{asset('assets/frontend')}}/images/resource/service-1.jpg" alt="">
+                                        src="{{ asset('assets/frontend') }}/images/resource/service-1.jpg"
+                                        alt="">
                                 </figure>
                                 <a href="https://www.youtube.com/watch?v=kxPCFljwJws"
                                     class="lightbox-image overlay-box"><span class="fas fa-play"><span
                                             class="dott"></span><i class="ripple"></i></span></a>
                             </div>
                             <div class="image wow fadeInRight" data-wow-delay="150ms" data-wow-duration="1500ms">
-                                <img src="{{asset('assets/frontend')}}/images/resource/service-2.jpg" alt="" />
+                                <img src="{{ asset('assets/frontend') }}/images/resource/service-2.jpg"
+                                    alt="" />
                             </div>
                         </div>
                     </div>
@@ -319,7 +326,7 @@
     <!-- Principle Section -->
     <section class="principle-section">
         <div class="pattern-layer-one"
-            style="background-image: url({{asset('assets/frontend')}}/images/background/pattern-2.png)"></div>
+            style="background-image: url({{ asset('assets/frontend') }}/images/background/pattern-2.png)"></div>
         <div class="auto-container">
             <div class="inner-container">
                 <div class="row clearfix">
@@ -346,10 +353,9 @@
                                                 <!--Tab Btns-->
                                                 <ul class="tab-btns tab-buttons clearfix">
                                                     <li data-tab="#prod-integrity" class="tab-btn active-btn">
-                                                        integrity</li>
-                                                    <li data-tab="#prod-obejectives" class="tab-btn">obejectives
-                                                    </li>
-                                                    <li data-tab="#prod-excellence" class="tab-btn">excellence</li>
+                                                        Integrity</li>
+                                                    <li data-tab="#prod-obejectives" class="tab-btn">Innovation</li>
+                                                    <li data-tab="#prod-excellence" class="tab-btn">Excellence</li>
                                                 </ul>
 
                                                 <!-- Tabs Container -->
@@ -358,24 +364,12 @@
                                                     <!-- Tab / Active Tab -->
                                                     <div class="tab active-tab" id="prod-integrity">
                                                         <div class="content">
-                                                            <div class="video-content">
-                                                                <!-- Video Box -->
-                                                                <div class="video-box-two">
-                                                                    <figure class="video-image">
-                                                                        <img class="transition-500ms"
-                                                                            src="{{asset('assets/frontend')}}/images/resource/video-image.jpg"
-                                                                            alt="">
-                                                                    </figure>
-                                                                    <a href="https://www.youtube.com/watch?v=kxPCFljwJws"
-                                                                        class="lightbox-image overlay-box"><span
-                                                                            class="fas fa-play"><i
-                                                                                class="ripple"></i></span></a>
-                                                                </div>
+                                                            <div class="mb-4">
                                                                 <ul class="list">
-                                                                    <li>Financial Growth</li>
-                                                                    <li>Customer Oriented Program</li>
-                                                                    <li>Dedicated Team member</li>
-                                                                    <li>Customer Oriented Program</li>
+                                                                    <li>Honesty and transparency.</li>
+                                                                    <li>Ethical business practices.</li>
+                                                                    <li>Accountability and responsibility.</li>
+                                                                    <li>Fairness and respect.</li>
                                                                 </ul>
                                                             </div>
 
@@ -432,24 +426,12 @@
                                                     <!-- Tab -->
                                                     <div class="tab" id="prod-obejectives">
                                                         <div class="content">
-                                                            <div class="video-content">
-                                                                <!-- Video Box -->
-                                                                <div class="video-box-two">
-                                                                    <figure class="video-image">
-                                                                        <img class="transition-500ms"
-                                                                            src="{{asset('assets/frontend')}}/images/resource/video-image.jpg"
-                                                                            alt="">
-                                                                    </figure>
-                                                                    <a href="https://www.youtube.com/watch?v=kxPCFljwJws"
-                                                                        class="lightbox-image overlay-box"><span
-                                                                            class="fas fa-play"><i
-                                                                                class="ripple"></i></span></a>
-                                                                </div>
+                                                            <div class="mb-4">
                                                                 <ul class="list">
-                                                                    <li>Financial Growth</li>
-                                                                    <li>Customer Oriented Program</li>
-                                                                    <li>Dedicated Team member</li>
-                                                                    <li>Customer Oriented Program</li>
+                                                                    <li>Embracing new technologies.</li>
+                                                                    <li>Encouraging creativity.</li>
+                                                                    <li>Continuous improvement.</li>
+                                                                    <li>Adapting to change.</li>
                                                                 </ul>
                                                             </div>
 
@@ -506,24 +488,12 @@
                                                     <!-- Tab -->
                                                     <div class="tab" id="prod-excellence">
                                                         <div class="content">
-                                                            <div class="video-content">
-                                                                <!-- Video Box -->
-                                                                <div class="video-box-two">
-                                                                    <figure class="video-image">
-                                                                        <img class="transition-500ms"
-                                                                            src="{{asset('assets/frontend')}}/images/resource/video-image.jpg"
-                                                                            alt="">
-                                                                    </figure>
-                                                                    <a href="https://www.youtube.com/watch?v=kxPCFljwJws"
-                                                                        class="lightbox-image overlay-box"><span
-                                                                            class="fas fa-play"><i
-                                                                                class="ripple"></i></span></a>
-                                                                </div>
+                                                            <div class="mb-4">
                                                                 <ul class="list">
-                                                                    <li>Financial Growth</li>
-                                                                    <li>Customer Oriented Program</li>
-                                                                    <li>Dedicated Team member</li>
-                                                                    <li>Customer Oriented Program</li>
+                                                                    <li>High-quality solutions.</li>
+                                                                    <li>Continuous growth.</li>
+                                                                    <li>Exceeding expectations.</li>
+                                                                    <li>Learning and development.</li>
                                                                 </ul>
                                                             </div>
 
@@ -590,21 +560,19 @@
                                         <ul class="number-list">
                                             <li>
                                                 <span class="number">01</span>
-                                                <strong>highest succes rates</strong>
-                                                Lorem ipsum, or lipsum as it is some <br> known, is dummy text used
-                                                in
+                                                <strong>Proven Success Rate</strong>
+                                                We deliver measurable results, </br>helping businesses thrive and grow.
                                             </li>
                                             <li>
                                                 <span class="number">02</span>
-                                                <strong>Effective Team Work</strong>
-                                                Lorem ipsum, or lipsum as it is some <br> known, is dummy text used
-                                                in
+                                                <strong>Strong Team Collaboration</strong>
+                                                A highly skilled team ensuring <br> seamless execution and excellence.
                                             </li>
                                             <li>
                                                 <span class="number">03</span>
-                                                <strong>we grow business</strong>
-                                                Lorem ipsum, or lipsum as it is some <br> known, is dummy text used
-                                                in
+                                                <strong>Driving Business Growth</strong>
+                                                Empowering businesses with innovative <br> strategies for long-term
+                                                success.
                                             </li>
                                         </ul>
                                     </div>
@@ -655,7 +623,7 @@
 
     <!-- Business Section -->
     <section class="business-section"
-        style="background-image: url({{asset('assets/frontend')}}/images/background/pattern-4.png)">
+        style="background-image: url({{ asset('assets/frontend') }}/images/background/pattern-4.png)">
         <div class="auto-container">
             <!-- Sec Title / Centered -->
             <div class="sec-title centered">
@@ -675,8 +643,8 @@
                                     <div class="icon-box">
                                         <span class="icon flaticon-padlock"></span>
                                     </div>
-                                    <h4><a href="service-detail.html">Security Managment</a></h4>
-                                    <div class="text">Lorem ipsum, or lipsum as some known, is dummy text used</div>
+                                    <h4><a href="service-detail.html">UI/UX Design</a></h4>
+                                    <div class="text">Crafting intuitive and engaging user experiences with modern design principles.</div>
                                 </div>
                             </div>
                         </div>
@@ -688,8 +656,8 @@
                                     <div class="icon-box">
                                         <span class="icon flaticon-seo"></span>
                                     </div>
-                                    <h4><a href="service-detail.html">Customer strategy</a></h4>
-                                    <div class="text">Lorem ipsum, or lipsum as some known, is dummy text used</div>
+                                    <h4><a href="service-detail.html">Mobile App Development</a></h4>
+                                    <div class="text">Building seamless, high-performance mobile applications for iOS and Android.</div>
                                 </div>
                             </div>
                         </div>
@@ -701,8 +669,8 @@
                                     <div class="icon-box">
                                         <span class="icon flaticon-search-engine"></span>
                                     </div>
-                                    <h4><a href="service-detail.html">seo & Content Writting</a></h4>
-                                    <div class="text">Lorem ipsum, or lipsum as some known, is dummy text used</div>
+                                    <h4><a href="service-detail.html">Web Development</a></h4>
+                                    <div class="text">Developing scalable, responsive, and feature-rich web applications.</div>
                                 </div>
                             </div>
                         </div>
@@ -716,10 +684,11 @@
                         <div class="circle-layer"></div>
                         <div class="circle-layer-two"></div>
                         <div class="pattern-layer"
-                            style="background-image: url({{asset('assets/frontend')}}/images/background/pattern-5.png)">
+                            style="background-image: url({{ asset('assets/frontend') }}/images/background/pattern-5.png)">
                         </div>
                         <div class="image" data-tilt data-tilt-max="4">
-                            <img src="{{asset('assets/frontend')}}/images/resource/business-1.jpg" alt="" />
+                            <img src="{{ asset('assets/frontend') }}/images/resource/business-1.jpg"
+                                alt="" />
                         </div>
                     </div>
                 </div>
@@ -735,8 +704,8 @@
                                     <div class="icon-box">
                                         <span class="icon flaticon-bar-chart"></span>
                                     </div>
-                                    <h4><a href="service-detail.html">analytic optimization</a></h4>
-                                    <div class="text">Lorem ipsum, or lipsum as some known, is dummy text used</div>
+                                    <h4><a href="service-detail.html">IT Consulting</a></h4>
+                                    <div class="text">Providing expert guidance to optimize technology solutions for business growth.</div>
                                 </div>
                             </div>
                         </div>
@@ -748,8 +717,8 @@
                                     <div class="icon-box">
                                         <span class="icon flaticon-human-brain"></span>
                                     </div>
-                                    <h4><a href="service-detail.html">digitals products</a></h4>
-                                    <div class="text">Lorem ipsum, or lipsum as some known, is dummy text used</div>
+                                    <h4><a href="service-detail.html">SEO & Content Marketing</a></h4>
+                                    <div class="text">Enhancing online visibility with strategic SEO and compelling content.</div>
                                 </div>
                             </div>
                         </div>
@@ -761,8 +730,8 @@
                                     <div class="icon-box">
                                         <span class="icon flaticon-notebook"></span>
                                     </div>
-                                    <h4><a href="service-detail.html">Link Building & Content</a></h4>
-                                    <div class="text">Lorem ipsum, or lipsum as some known, is dummy text used</div>
+                                    <h4><a href="service-detail.html">Cloud & DevOps Services</a></h4>
+                                    <div class="text">Streamlining operations with cloud solutions and efficient DevOps practices.</div>
                                 </div>
                             </div>
                         </div>
@@ -782,16 +751,19 @@
             <div class="sec-title">
                 <div class="clearfix">
                     <div class="pull-left">
-                        <div class="title">Offering Services</div>
-                        <h2>We Provide Exclusive <br> <span>Digital</span> Service</h2>
+                        <div class="title">Our Team</div>
+                        <h2>Meet Our Expart <br> <span>Team</span> Member</h2>
                     </div>
                     <div class="pull-right">
                         <!-- More Members -->
                         <div class="more-members">
                             <ul class="members">
-                                <li><img src="{{asset('assets/frontend')}}/images/resource/member-1.jpg" alt="" /></li>
-                                <li><img src="{{asset('assets/frontend')}}/images/resource/member-2.jpg" alt="" /></li>
-                                <li><img src="{{asset('assets/frontend')}}/images/resource/member-3.jpg" alt="" /></li>
+                                <li><img src="{{ asset('assets/frontend/images/resource/member-1.jpg') }}"
+                                        alt="" /></li>
+                                <li><img src="{{ asset('assets/frontend/images/resource/member-2.jpg') }}"
+                                        alt="" /></li>
+                                <li><img src="{{ asset('assets/frontend/images/resource/member-3.jpg') }}"
+                                        alt="" /></li>
                                 <li><a href="team.html">More Members</a></li>
                             </ul>
                         </div>
@@ -818,13 +790,13 @@
                                     <li><a href="https://youtube.com/" class="fa fa-youtube"></a></li>
                                 </ul>
                             </div>
-                            <img src="{{asset('assets/frontend')}}/images/resource/team-1.png" alt="" />
+                            <img src="{{ asset('assets/frontend/images/resource/team-1.png') }}" alt="" />
                             <div class="content">
                                 <div class="icon-layer-one"
-                                    style="background-image: url({{asset('assets/frontend')}}/images/icons/plus-icon.png)">
+                                    style="background-image: url({{ asset('assets/frontend/images/icons/plus-icon.png') }})">
                                 </div>
                                 <div class="icon-layer-two"
-                                    style="background-image: url({{asset('assets/frontend')}}/images/icons/circle-icon.png)">
+                                    style="background-image: url({{ asset('assets/frontend/images/icons/circle-icon.png') }})">
                                 </div>
                                 <div class="designation">Digital Marketer</div>
                                 <h4><a href="team.html">Brooklyn Simmons</a></h4>
@@ -848,13 +820,13 @@
                                     <li><a href="https://youtube.com/" class="fa fa-youtube"></a></li>
                                 </ul>
                             </div>
-                            <img src="{{asset('assets/frontend')}}/images/resource/team-2.png" alt="" />
+                            <img src="{{ asset('assets/frontend') }}/images/resource/team-2.png" alt="" />
                             <div class="content">
                                 <div class="icon-layer-one"
-                                    style="background-image: url({{asset('assets/frontend')}}/images/icons/plus-icon.png)">
+                                    style="background-image: url({{ asset('assets/frontend') }}/images/icons/plus-icon.png)">
                                 </div>
                                 <div class="icon-layer-two"
-                                    style="background-image: url({{asset('assets/frontend')}}/images/icons/circle-icon.png)">
+                                    style="background-image: url({{ asset('assets/frontend') }}/images/icons/circle-icon.png)">
                                 </div>
                                 <div class="designation">seo specialist</div>
                                 <h4><a href="team.html">Savannah Nguyen</a></h4>
@@ -878,13 +850,13 @@
                                     <li><a href="https://youtube.com/" class="fa fa-youtube"></a></li>
                                 </ul>
                             </div>
-                            <img src="{{asset('assets/frontend')}}/images/resource/team-3.png" alt="" />
+                            <img src="{{ asset('assets/frontend') }}/images/resource/team-3.png" alt="" />
                             <div class="content">
                                 <div class="icon-layer-one"
-                                    style="background-image: url({{asset('assets/frontend')}}/images/icons/plus-icon.png)">
+                                    style="background-image: url({{ asset('assets/frontend') }}/images/icons/plus-icon.png)">
                                 </div>
                                 <div class="icon-layer-two"
-                                    style="background-image: url({{asset('assets/frontend')}}/images/icons/circle-icon.png)">
+                                    style="background-image: url({{ asset('assets/frontend') }}/images/icons/circle-icon.png)">
                                 </div>
                                 <div class="designation">INTERIOR DESIGNER</div>
                                 <h4><a href="team.html">Cameron Williamson</a></h4>
@@ -908,13 +880,13 @@
                                     <li><a href="https://youtube.com/" class="fa fa-youtube"></a></li>
                                 </ul>
                             </div>
-                            <img src="{{asset('assets/frontend')}}/images/resource/team-4.png" alt="" />
+                            <img src="{{ asset('assets/frontend') }}/images/resource/team-4.png" alt="" />
                             <div class="content">
                                 <div class="icon-layer-one"
-                                    style="background-image: url({{asset('assets/frontend')}}/images/icons/plus-icon.png)">
+                                    style="background-image: url({{ asset('assets/frontend') }}/images/icons/plus-icon.png)">
                                 </div>
                                 <div class="icon-layer-two"
-                                    style="background-image: url({{asset('assets/frontend')}}/images/icons/circle-icon.png)">
+                                    style="background-image: url({{ asset('assets/frontend') }}/images/icons/circle-icon.png)">
                                 </div>
                                 <div class="designation">UI UX Designer</div>
                                 <h4><a href="team.html">Savannah Nguyen</a></h4>
@@ -949,26 +921,26 @@
 
                                     <!-- Form Group -->
                                     <div class="form-group col-lg-6 col-md-6 col-sm-12">
-                                        <input type="text" name="firstname" value="" placeholder="Enter your name*"
-                                            required>
+                                        <input type="text" name="firstname" value=""
+                                            placeholder="Enter your name*" required>
                                     </div>
 
                                     <!-- Form Group -->
                                     <div class="form-group col-lg-6 col-md-6 col-sm-12">
-                                        <input type="email" name="email" value="" placeholder="Enter your mail*"
-                                            required>
+                                        <input type="email" name="email" value=""
+                                            placeholder="Enter your mail*" required>
                                     </div>
 
                                     <!-- Form Group -->
                                     <div class="form-group col-lg-6 col-md-6 col-sm-12">
-                                        <input type="text" name="phone" value="" placeholder="Enter your number*"
-                                            required>
+                                        <input type="text" name="phone" value=""
+                                            placeholder="Enter your number*" required>
                                     </div>
 
                                     <!-- Form Group -->
                                     <div class="form-group col-lg-6 col-md-6 col-sm-12">
-                                        <input type="text" name="subject" value="" placeholder="Weabsite Link*"
-                                            required>
+                                        <input type="text" name="subject" value=""
+                                            placeholder="Weabsite Link*" required>
                                     </div>
 
                                     <!-- Form Group -->
@@ -986,7 +958,8 @@
                                     </div>
 
                                     <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                        <button type="submit" class="theme-btn btn-style-three"><span class="txt">Send
+                                        <button type="submit" class="theme-btn btn-style-three"><span
+                                                class="txt">Send
                                                 Messege <i class="flaticon-next-2"></i></span></button>
                                     </div>
 
@@ -1003,13 +976,14 @@
                         <div class="color-layer"></div>
                         <div class="icon far fa-question-circle"></div>
                         <div class="image">
-                            <img src="{{asset('assets/frontend')}}/images/resource/form-image.jpg" alt="" />
+                            <img src="{{ asset('assets/frontend') }}/images/resource/form-image.jpg"
+                                alt="" />
                         </div>
                         <div class="author-box-one">
-                            <img src="{{asset('assets/frontend')}}/images/resource/author-2.jpg" alt="" />
+                            <img src="{{ asset('assets/frontend') }}/images/resource/author-2.jpg" alt="" />
                         </div>
                         <div class="author-box-two">
-                            <img src="{{asset('assets/frontend')}}/images/resource/author-3.jpg" alt="" />
+                            <img src="{{ asset('assets/frontend') }}/images/resource/author-3.jpg" alt="" />
                         </div>
                     </div>
                 </div>
@@ -1023,11 +997,11 @@
         <div class="auto-container">
             <div class="inner-container clearfix">
                 <div class="icon-layer-one"
-                    style="background-image: url({{asset('assets/frontend')}}/images/icons/vector-7.png)"></div>
+                    style="background-image: url({{ asset('assets/frontend') }}/images/icons/vector-7.png)"></div>
                 <div class="icon-layer-two"
-                    style="background-image: url({{asset('assets/frontend')}}/images/icons/vector-8.png)"></div>
+                    style="background-image: url({{ asset('assets/frontend') }}/images/icons/vector-8.png)"></div>
                 <div class="icon-layer-three"
-                    style="background-image: url({{asset('assets/frontend')}}/images/icons/vector-9.png)"></div>
+                    style="background-image: url({{ asset('assets/frontend') }}/images/icons/vector-9.png)"></div>
                 <div class="pull-left">
                     <h3>Want to <span>consult</span> with our team ?</h3>
                 </div>
@@ -1046,7 +1020,7 @@
     <section class="testimonials-section">
 
         <div class="pattern-layer"
-            style="background-image: url({{asset('assets/frontend')}}/images/background/pattern-6.png)"></div>
+            style="background-image: url({{ asset('assets/frontend') }}/images/background/pattern-6.png)"></div>
         <div class="auto-container">
             <div class="row clearfix">
 
@@ -1055,24 +1029,29 @@
                     <div class="inner-column">
 
                         <div class="author_img_wrap pos-rel">
-                            <!-- <div class="tm_bg" style="background-image: url({{asset('assets/frontend')}}/images/background/tm-bg.png);"></div> -->
+                            <!-- <div class="tm_bg" style="background-image: url({{ asset('assets/frontend') }}/images/background/tm-bg.png);"></div> -->
                             <div class="author_img">
-                                <img src="{{asset('assets/frontend')}}/images/resource/author_img.png" alt="">
+                                <img src="{{ asset('assets/frontend') }}/images/resource/author_img.png"
+                                    alt="">
                             </div>
                             <div class="icon-layer"
-                                style="background-image: url({{asset('assets/frontend')}}/images/icons/vector-10.png)">
+                                style="background-image: url({{ asset('assets/frontend') }}/images/icons/vector-10.png)">
                             </div>
                             <div class="quote-icon">
-                                <img src="{{asset('assets/frontend')}}/images/icons/tm_quote.png" alt="">
+                                <img src="{{ asset('assets/frontend') }}/images/icons/tm_quote.png" alt="">
                             </div>
-                            <div class="image-one"><img src="{{asset('assets/frontend')}}/images/resource/author-6.jpg"
-                                    alt=""></div>
-                            <div class="image-five"><img src="{{asset('assets/frontend')}}/images/resource/author-8.jpg"
-                                    alt=""></div>
-                            <div class="image-six"><img src="{{asset('assets/frontend')}}/images/resource/author-9.jpg"
-                                    alt=""></div>
-                            <div class="image-four"><img src="{{asset('assets/frontend')}}/images/resource/author-7.jpg"
-                                    alt=""></div>
+                            <div class="image-one"><img
+                                    src="{{ asset('assets/frontend') }}/images/resource/author-6.jpg" alt="">
+                            </div>
+                            <div class="image-five"><img
+                                    src="{{ asset('assets/frontend') }}/images/resource/author-8.jpg" alt="">
+                            </div>
+                            <div class="image-six"><img
+                                    src="{{ asset('assets/frontend') }}/images/resource/author-9.jpg" alt="">
+                            </div>
+                            <div class="image-four"><img
+                                    src="{{ asset('assets/frontend') }}/images/resource/author-7.jpg" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1100,7 +1079,7 @@
                                     <div class="author-box">
                                         <div class="box-inner">
                                             <div class="author-image">
-                                                <img src="{{asset('assets/frontend')}}/images/resource/author-11.jpg"
+                                                <img src="{{ asset('assets/frontend') }}/images/resource/author-11.jpg"
                                                     alt="">
                                             </div>
                                             <h4>Cameron Williamson</h4>
@@ -1122,7 +1101,7 @@
                                     <div class="author-box">
                                         <div class="box-inner">
                                             <div class="author-image">
-                                                <img src="{{asset('assets/frontend')}}/images/resource/author-11.jpg"
+                                                <img src="{{ asset('assets/frontend') }}/images/resource/author-11.jpg"
                                                     alt="">
                                             </div>
                                             <h4>Cameron Williamson</h4>
@@ -1144,7 +1123,7 @@
                                     <div class="author-box">
                                         <div class="box-inner">
                                             <div class="author-image">
-                                                <img src="{{asset('assets/frontend')}}/images/resource/author-11.jpg"
+                                                <img src="{{ asset('assets/frontend') }}/images/resource/author-11.jpg"
                                                     alt="">
                                             </div>
                                             <h4>Cameron Williamson</h4>
@@ -1169,22 +1148,22 @@
         <div class="auto-container">
             <div class="inner-container">
                 <div class="vector-layer-one"
-                    style="background-image: url({{asset('assets/frontend')}}/images/icons/vector-11.png)">
+                    style="background-image: url({{ asset('assets/frontend') }}/images/icons/vector-11.png)">
                 </div>
                 <div class="vector-layer-two"
-                    style="background-image: url({{asset('assets/frontend')}}/images/icons/vector-12.png)">
+                    style="background-image: url({{ asset('assets/frontend') }}/images/icons/vector-12.png)">
                 </div>
                 <div class="vector-layer-three"
-                    style="background-image: url({{asset('assets/frontend')}}/images/icons/vector-13.png)">
+                    style="background-image: url({{ asset('assets/frontend') }}/images/icons/vector-13.png)">
                 </div>
                 <div class="vector-layer-four"
-                    style="background-image: url({{asset('assets/frontend')}}/images/icons/vector-14.png)">
+                    style="background-image: url({{ asset('assets/frontend') }}/images/icons/vector-14.png)">
                 </div>
                 <div class="vector-layer-five"
-                    style="background-image: url({{asset('assets/frontend')}}/images/icons/vector-14.png)">
+                    style="background-image: url({{ asset('assets/frontend') }}/images/icons/vector-14.png)">
                 </div>
                 <div class="vector-layer-six"
-                    style="background-image: url({{asset('assets/frontend')}}/images/icons/vector-14.png)">
+                    style="background-image: url({{ asset('assets/frontend') }}/images/icons/vector-14.png)">
                 </div>
                 <!-- Fact Counter -->
                 <div class="fact-counter">
@@ -1265,7 +1244,8 @@
                     <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div class="image">
                             <a href="blog-detail.html"><img
-                                    src="{{asset('assets/frontend')}}/images/resource/news-1.jpg" alt="" /></a>
+                                    src="{{ asset('assets/frontend') }}/images/resource/news-1.jpg"
+                                    alt="" /></a>
                             <div class="category">story</div>
                         </div>
                         <div class="lower-content">
@@ -1285,7 +1265,8 @@
                     <div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div class="image">
                             <a href="blog-detail.html"><img
-                                    src="{{asset('assets/frontend')}}/images/resource/news-2.jpg" alt="" /></a>
+                                    src="{{ asset('assets/frontend') }}/images/resource/news-2.jpg"
+                                    alt="" /></a>
                             <div class="category">story</div>
                         </div>
                         <div class="lower-content">
@@ -1305,7 +1286,8 @@
                     <div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div class="image">
                             <a href="blog-detail.html"><img
-                                    src="{{asset('assets/frontend')}}/images/resource/news-3.jpg" alt="" /></a>
+                                    src="{{ asset('assets/frontend') }}/images/resource/news-3.jpg"
+                                    alt="" /></a>
                             <div class="category">story</div>
                         </div>
                         <div class="lower-content">
